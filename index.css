@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url('https://fonts.googleapis.com/css?family=Bevan');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Pontano+Sans');
+
+
+
+html { font-size:100%; 
+} 
+
+@media (min-width: 640px) {
+   body {font-size:1rem;} } 
+@media (min-width:960px) { 
+  body {font-size:1.2rem;} } 
+@media (min-width:1100px) { 
+  body {font-size:1.5rem;} } 
+
+
+h1,
+.h1 {
+  
+  text-align: center;
+  font-size: 5rem;
+  color: #F8F8F8;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
+#hiddenDIV {
+
+display:none;
+}
+
+.about_me { padding-top: 40px;
+            padding-left: 50px;
+            text-align: center;
+}
+
+
+#button-primary {
+  padding-right: 40px;
+}
+
+
+.description {
+  padding-bottom: 20px;
+}
+
+
+
+
+.section {
+  padding-bottom: 100px;
+}
+
+
+p,h6,h3,h4{
+  color:black;
+}
+
+
+
+#myself {
+  border-radius:  50%;
+
+
+}
+
+.contact_description {
+  text-align: center;
+  padding-bottom: 50px;
+  font-style: italic;
+  font-size: 100%;
+}
+
+.btn {
+  align-content: center;
+
+}
+
+img { max-width: 100%;
+ }
+
+
+@media only screen and (max-width:700px) {
+  .img-circular{
+   flex-wrap:flex;
+   padding-left:125px;
+   padding-right: 125px;
+    
+  }
+
+  h1,h3,h4 {
+    text-align: center;
+  }
+
+} 
